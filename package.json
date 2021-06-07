@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Yaron Y. Goland",
+  "license": "MIT",
+  "name": "launcher",
+  "version": "1.0.0",
+  "description": "A quick and dirty test of solidity",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@truffle/contract": "^4.3.19",
+    "web3": "^1.3.6"
+  }
+}
