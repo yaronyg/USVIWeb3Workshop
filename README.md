@@ -22,15 +22,15 @@ Materials for a summer workshop at USVI on Web 3.0
    
     1. We'll give detailed instructions on how to set up MetaMask below
 
-# Set up
 1. Open up your favorite git client (on windows you can go to the start bar and choose "git bash")
 3. Navigate inside your shell with git support to where you want to keep the directory
 4. Issue the "git clone https://github.com/yaronyg/USVIWeb3Workshop.git" to create a local clone of the directory
 5. Issue the command "npm install -g truffle" to install the truffle framework.
-5. You can close the terminal window if you would like. From this point on if we say "terminal" we mean the terminal window you will open in Visual Studio Code in two sections from now.
-1. Please open up Visual Studio code and select file->open folder and navigate to the USVIWeb3Workshop directory and select it and open
+1. Issue the command "npm install"
+5. You can close the terminal window if you would like. From this point on if we say "terminal" we mean the terminal window you will open in Visual Studio Code.
 
 # Let's talk a bit about Truffle and Ganache
+1. Please open up Visual Studio code and select file->open folder and navigate to the USVIWeb3Workshop directory and select it and open
 1. A quick look at Migrations.sol
 2. Open up the Ganache App
 3. Click on "New Workspace"
@@ -61,8 +61,7 @@ Materials for a summer workshop at USVI on Web 3.0
 2. Go to Terminal and type in "truffle test"
 
 # Let's look at a simple dAPP
-1. Go to Terminal and type "npm install"
-2. Go to index.html
+1. Go to index.html
 3. Go to js/app.js
 5. Go to your browser and click on the MetaMask icon.
    1. It should open a page that says "Welcome to MetaMask", click on Get Started
