@@ -26,7 +26,7 @@ Materials for a summer workshop at USVI on Web 3.0
 3. Navigate inside your shell with git support to where you want to keep the directory
 4. Issue the "git clone https://github.com/yaronyg/USVIWeb3Workshop.git" to create a local clone of the directory
 5. Issue the command "npm install -g truffle" to install the truffle framework.
-1. Issue the command "npm install"
+1. Change the directory to the USVIWeb3Workshop directory and then issue the command "npm install"
 5. You can close the terminal window if you would like. From this point on if we say "terminal" we mean the terminal window you will open in Visual Studio Code.
 
 # Let's talk a bit about Truffle and Ganache
