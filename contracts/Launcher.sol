@@ -15,6 +15,11 @@ contract Launcher {
 
     mapping(uint => Launch) public launches;
 
+    // Using a counter is a bad idea in general because it's not a globally guaranteed unique ID
+    // and due to chain issues a counter you think belongs to campaign X could end up belonging
+    // to campaign Y. So one has to always remember to confirm both the counter and the beneficiary.
+    // Ideally we would use the beneficiary as the index but that made testing painful and since
+    // this is really just code to explain solidity I went with something that was easy to test.
     uint public launchCounter;
 
     /// The submitted launch address doesn't match a launch campaign
